@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="D14_grottaspel.MainWindow">
+    <Position X="2.25" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="D14_grottaspel.RoomState">
+    <Position X="9.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAEAAAAAAAAAEAAEAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Labyrinth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D14_grottaspel.Directions">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAABAAAgAA=</HashCode>
+      <FileName>Labyrinth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D14_grottaspel.Room">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iACQAAAAQAAAIEEAAAAAAAAAEAAAABAMBAAACAABAAQ=</HashCode>
+      <FileName>Labyrinth.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="direction" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="state" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="D14_grottaspel.Labyrinth">
+    <Position X="2.25" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAgAAAgACQAAAAAAABAwgAAQAACQBAAAAAAAAAA=</HashCode>
+      <FileName>Labyrinth.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="labyrinth" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
